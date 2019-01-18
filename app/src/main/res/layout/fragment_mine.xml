@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#31c27c"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:background="@mipmap/mine_background">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/main_circleImageView_headPortrait"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:src="@mipmap/drawer_menu_headportrait"
+                app:civ_border_color="#FF000000"
+                app:civ_border_width="1dp" />
+
+
+        </RelativeLayout>
+
+        <com.dd.ShadowLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffff"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/timerNum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="center"
+                    android:text="定时关闭"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <com.suke.widget.SwitchButton
+                    android:id="@+id/fragement_mine_switch_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true" />
+
+            </RelativeLayout>
+        </com.dd.ShadowLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:text="备忘录"
+            android:textColor="#ffffff" />
+
+        <com.dd.ShadowLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp">
+
+            <EditText
+                android:id="@+id/fragement_mine_editText"
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:layout_marginBottom="5dp"
+                android:background="#ffff"
+                android:gravity="left"
+                android:hint="我爱湘大音乐"
+                android:textColor="#000000" />
+
+        </com.dd.ShadowLayout>
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:id="@+id/fragement_mine_button_save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            app:fb_borderColor="#090b0b"
+            app:fb_borderWidth="1dp"
+            app:fb_defaultColor="#FFFFFF"
+            app:fb_focusColor="#4031c27c"
+            app:fb_fontIconSize="20dp"
+            app:fb_ghost="false"
+            app:fb_iconPaddingRight="30dp"
+            app:fb_iconPosition="left"
+            app:fb_radius="0dp"
+            app:fb_text="确定"
+            app:fb_textColor="#000000"
+            app:fb_textSize="14dp" />
+
+
+    </LinearLayout>
+</ScrollView>

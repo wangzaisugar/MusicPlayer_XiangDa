@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainActivity_actionBar"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    tools:showIn="@layout/fragment_main">
+
+    <!--侧拉栏按钮-->
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:id="@+id/mainActivity_buttonOpenDrawer"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:paddingBottom="0dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:paddingTop="0dp"
+        app:fb_borderColor="#090b0b"
+        app:fb_borderWidth="0dp"
+        app:fb_defaultColor="#7ab800"
+        app:fb_focusColor="#ffffff"
+        app:fb_fontIconResource="&#xf0c9;"
+        app:fb_fontIconSize="20dp"
+        app:fb_ghost="true"
+        app:fb_iconPaddingRight="0dp"
+        app:fb_iconPosition="left"
+        app:fb_radius="0dp"
+        app:fb_text=""
+        app:fb_textColor="#FFFFFF"
+        app:fb_textSize="14dp" />
+
+    <!--动态字体-->
+    <com.hanks.htextview.evaporate.EvaporateTextView
+        android:id="@+id/mainActivity_evaporateTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:paddingTop="8dp"
+        android:text=""
+        android:textColor="#ffffff"
+        android:textSize="15sp" />
+
+</RelativeLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#31c27c"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp">
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="false"
+            android:text="音乐列表" />
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:id="@+id/musicListActivity_buttonBack"
+            android:onClick="back"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:paddingBottom="0dp"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp"
+            android:paddingTop="0dp"
+            app:fb_borderColor="#090b0b"
+            app:fb_borderWidth="0dp"
+            app:fb_defaultColor="#7ab800"
+            app:fb_focusColor="#ffffff"
+            app:fb_fontIconResource="&#xf060;"
+            app:fb_fontIconSize="20dp"
+            app:fb_ghost="true"
+            app:fb_iconPaddingRight="0dp"
+            app:fb_iconPosition="left"
+            app:fb_radius="0dp"
+            app:fb_text=""
+            app:fb_textColor="#FFFFFF"
+            app:fb_textSize="14dp" />
+
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:layout_alignParentRight="true"
+            android:id="@+id/musicListActivity_buttonSearchMusic"
+            android:onClick="SearchMusic"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:paddingBottom="0dp"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp"
+            android:paddingTop="0dp"
+            app:fb_borderColor="#090b0b"
+            app:fb_borderWidth="0dp"
+            app:fb_defaultColor="#7ab800"
+            app:fb_focusColor="#ffffff"
+            app:fb_fontIconResource="&#xf00e;"
+            app:fb_fontIconSize="20dp"
+            app:fb_ghost="true"
+            app:fb_iconPaddingRight="0dp"
+            app:fb_iconPosition="left"
+            app:fb_radius="0dp"
+            app:fb_text=""
+            app:fb_textColor="#FFFFFF"
+            app:fb_textSize="14dp" />
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/musicListActivity_musicListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+
+
+
+
+</LinearLayout>

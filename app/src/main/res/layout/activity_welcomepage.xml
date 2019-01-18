@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/wlecomePage_relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/welcomebackground" />
+
+    <!--阴影化-->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#70555555" />
+    <!--标题-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="湘大音乐"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <!--圆形湘大图标-->
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/wlecomePage_circleImageView"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:src="@drawable/welcome_icon"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="1dp" />
+
+
+    <!--动态文字-->
+    <com.hanks.htextview.scale.ScaleTextView
+        android:id="@+id/wlecomePage_scaleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/wlecomePage_circleImageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:text=""
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <com.wang.avi.AVLoadingIndicatorView
+        android:id="@+id/wlecomePage_loadingView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/wlecomePage_scaleTextView"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        app:indicatorColor="#31c27c"
+        app:indicatorName="LineScaleIndicator" />
+
+    <!--版权所有声明-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:text="Copyright ©2018 - 2019 湘潭大学ZQ"
+        android:textSize="14sp" />
+
+
+</RelativeLayout>

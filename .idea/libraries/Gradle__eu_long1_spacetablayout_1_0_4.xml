@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: eu.long1:spacetablayout-1.0.4">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/spacetablayout-1.0.4.aar/f58330a07b243deb9eecf78490caf1d1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/spacetablayout-1.0.4.aar/f58330a07b243deb9eecf78490caf1d1/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/eu.long1/spacetablayout/1.0.4/ab46345b1d254207ae1782e0fa569f1749ef15ec/spacetablayout-1.0.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

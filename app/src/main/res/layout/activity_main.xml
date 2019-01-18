@@ -1,0 +1,32 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#96ffffff">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/Main_viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="56dp" />
+
+    <eu.long1.spacetablayout.SpaceTabLayout
+        android:id="@+id/spaceTabLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_behavior="eu.long1.spacetablayout.SpaceTabLayoutBehavior"
+        app:number_of_tabs="three"
+        app:starting_position="one"
+        app:tab_color="#ffffff"
+        app:button_color="#31c27c"
+        app:text_color="#000000"
+        app:icon_one="@mipmap/home"
+        app:icon_two="@mipmap/message"
+        app:icon_three="@mipmap/my"
+        app:text_one="音乐"
+        app:text_two="消息"
+        app:text_three="个人"/>
+
+</RelativeLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="64dp"
+    android:padding="6dp">
+
+    <ImageView
+        android:layout_centerVertical="true"
+        android:id="@+id/item_musicList_imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/deficon" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/item_musicList_imageView"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/item_musicList_songName"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:text="歌曲1" />
+
+        <TextView
+            android:id="@+id/item_musicList_songer"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:text="未知歌手" />
+
+    </LinearLayout>
+
+
+    <com.wang.avi.AVLoadingIndicatorView
+        android:id="@+id/item_loadingView"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"
+        app:indicatorColor="#90ffffff"
+        app:indicatorName="LineScalePulseOutIndicator" />
+
+    <ImageView
+        android:layout_marginRight="5dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/right"
+        />
+
+
+</RelativeLayout>

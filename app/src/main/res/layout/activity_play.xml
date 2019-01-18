@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--背景-->
+    <ImageView
+        android:id="@+id/playActivity_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/defbackground" />
+
+    <!--阴影化-->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#70555555" />
+
+    <RelativeLayout
+        android:id="@+id/lyricandimage_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:id="@+id/playActivity_buttonBack"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:onClick="back"
+            android:paddingBottom="0dp"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp"
+            android:paddingTop="0dp"
+            app:fb_borderColor="#090b0b"
+            app:fb_borderWidth="0dp"
+            app:fb_defaultColor="#7ab800"
+            app:fb_focusColor="#ffffff"
+            app:fb_fontIconResource="&#xf060;"
+            app:fb_fontIconSize="20dp"
+            app:fb_ghost="true"
+            app:fb_iconPaddingRight="0dp"
+            app:fb_iconPosition="left"
+            app:fb_radius="0dp"
+            app:fb_text=""
+            app:fb_textColor="#FFFFFF"
+            app:fb_textSize="14dp" />
+
+        <LinearLayout
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/playActivity_buttonBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/playActivity_music_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="未知歌名"
+                android:textColor="#ffffff"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/playActivity_music_artist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/playActivity_music_title"
+                android:layout_marginLeft="20dp"
+                android:text="未知歌手"
+                android:textColor="#8D8D8D"
+                android:textSize="13sp" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_below="@id/playActivity_buttonBack"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/dividingline" />
+
+    </RelativeLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/relative_layout_seek_bar_wrapper"
+        android:layout_below="@id/lyricandimage_layout" />
+
+    <RelativeLayout
+        android:id="@+id/relative_layout_seek_bar_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/music_play_control"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:id="@+id/start_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:text="00:00"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+
+        <SeekBar
+            android:id="@+id/music_seek_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/end_time"
+            android:layout_toRightOf="@+id/start_time" />
+
+        <TextView
+            android:id="@+id/end_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:text="00:00"
+            android:textColor="#8D8D8D"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/music_play_control"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp">
+
+        <ImageView
+            android:id="@+id/btn_mode"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="13dp"
+            android:src="@drawable/btn_all_repeat_selector" />
+
+        <ImageView
+            android:id="@+id/playActivity_preSong"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="35dp"
+            android:layout_toLeftOf="@+id/playActivity_pauseSong"
+            android:src="@drawable/btn_prev_selector" />
+
+
+        <ImageView
+            android:id="@+id/playActivity_pauseSong"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/btn_play_selector" />
+
+        <ImageView
+            android:id="@+id/playActivity_nextSong"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="35dp"
+            android:layout_toRightOf="@+id/playActivity_pauseSong"
+            android:src="@drawable/btn_next_selector" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

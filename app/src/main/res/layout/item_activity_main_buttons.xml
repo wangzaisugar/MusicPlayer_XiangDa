@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:orientation="horizontal"
+    android:padding="7dp"
+    tools:showIn="@layout/fragment_main">
+
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:id="@+id/item_activity_main_entryPlayActivityButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:fb_borderColor="#090b0b"
+        app:fb_borderWidth="0dp"
+        app:fb_defaultColor="#5009a3dc"
+        app:fb_focusColor="#660a0a07"
+        app:fb_fontIconResource="&#xf001;"
+        app:fb_fontIconSize="40dp"
+        app:fb_ghost="true"
+        app:fb_iconPaddingRight="5dp"
+        app:fb_iconPosition="top"
+        app:fb_radius="0dp"
+        app:fb_text="本地音乐"
+        app:fb_textColor="#31c27c"
+        app:fb_textSize="10sp" />
+
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:id="@+id/item_activity_main_myDownLoadButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_weight="1"
+        app:fb_borderColor="#090b0b"
+        app:fb_borderWidth="0dp"
+        app:fb_defaultColor="#5009a3dc"
+        app:fb_focusColor="#660a0a07"
+        app:fb_fontIconResource="&#xf019;"
+        app:fb_fontIconSize="40dp"
+        app:fb_ghost="true"
+        app:fb_iconPaddingRight="5dp"
+        app:fb_iconPosition="top"
+        app:fb_radius="0dp"
+        app:fb_text="我的下载"
+        app:fb_textColor="#31c27c"
+        app:fb_textSize="10sp" />
+
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:fb_borderColor="#090b0b"
+        app:fb_borderWidth="0dp"
+        app:fb_defaultColor="#5009a3dc"
+        app:fb_focusColor="#660a0a07"
+        app:fb_fontIconResource="&#xf017;"
+        app:fb_fontIconSize="40dp"
+        app:fb_ghost="true"
+        app:fb_iconPaddingRight="5dp"
+        app:fb_iconPosition="top"
+        app:fb_radius="0dp"
+        app:fb_text="最近播放"
+        app:fb_textColor="#31c27c"
+        app:fb_textSize="10sp" />
+
+</LinearLayout>

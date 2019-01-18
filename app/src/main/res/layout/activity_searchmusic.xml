@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:background="#31c27c"
+        android:layout_width="match_parent"
+        android:layout_height="48dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="false"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:text="音乐搜索" />
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:id="@+id/searchmusicActivity_buttonBack"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:onClick="back"
+            android:paddingBottom="0dp"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp"
+            android:paddingTop="0dp"
+            app:fb_borderColor="#090b0b"
+            app:fb_borderWidth="0dp"
+            app:fb_defaultColor="#7ab800"
+            app:fb_focusColor="#ffffff"
+            app:fb_fontIconResource="&#xf060;"
+            app:fb_fontIconSize="20dp"
+            app:fb_ghost="true"
+            app:fb_iconPaddingRight="0dp"
+            app:fb_iconPosition="left"
+            app:fb_radius="0dp"
+            app:fb_text=""
+            app:fb_textColor="#FFFFFF"
+            app:fb_textSize="14dp" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/searchMusicActivity_searchImageView"
+            android:onClick="search"
+            android:clickable="true"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/search"/>
+
+        <com.wang.avi.AVLoadingIndicatorView
+            android:visibility="gone"
+            android:id="@+id/searchMusicActivity_loadingView"
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            app:indicatorName="LineSpinFadeLoaderIndicator"
+            app:indicatorColor="#31c27c" />
+
+        <TextView
+            android:layout_marginBottom="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/searchMusicActivity_textView"/>
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

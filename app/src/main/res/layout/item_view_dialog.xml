@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <EditText
+        android:id="@+id/etv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="分钟为单位" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:id="@+id/opt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            app:fb_borderColor="#090b0b"
+            app:fb_borderWidth="1dp"
+            app:fb_defaultColor="#31c27c"
+            app:fb_focusColor="#4031c27c"
+            app:fb_fontIconSize="20dp"
+            app:fb_ghost="false"
+            app:fb_iconPaddingRight="30dp"
+            app:fb_iconPosition="left"
+            app:fb_radius="0dp"
+            app:fb_text="确定"
+            app:fb_textColor="#FFFFFF"
+            app:fb_textSize="14dp" />
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:id="@+id/neg"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            app:fb_borderColor="#090b0b"
+            app:fb_borderWidth="1dp"
+            app:fb_defaultColor="#31c27c"
+            app:fb_focusColor="#4031c27c"
+            app:fb_fontIconSize="20dp"
+            app:fb_ghost="false"
+            app:fb_iconPaddingRight="30dp"
+            app:fb_iconPosition="left"
+            app:fb_radius="0dp"
+            app:fb_text="取消"
+            app:fb_textColor="#FFFFFF"
+            app:fb_textSize="14dp" />
+
+    </LinearLayout>
+</LinearLayout>
