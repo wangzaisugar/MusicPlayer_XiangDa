@@ -9,10 +9,16 @@
 有些简陋，仅供参考下。
 
 ##捐助开发者
-在兴趣的驱动下,写一个`免费`的东西，有欣喜，也还有汗水，希望你喜欢我的作品，同时也能点赞支持一下。
+在兴趣的驱动下,写一个小软件，有欣喜，也还有汗水，希望你喜欢我的作品，同时也能点赞支持一下。
 
+<p align="center">
+    <img src="https://github.com/yanxiaonuo/MusicPlayer_XiangDa/blob/master/Screenshot/Screenshot_1.png" alt="Sample"  width="250" height="140">
+    <p align="center">
+        <em></em>
+    </p>
+</p>
 
-![](https://github.com/yanxiaonuo/MusicPlayer_XiangDa/blob/master/Screenshot/Screenshot_1.png)
+![]()
 
 ![](https://github.com/yanxiaonuo/MusicPlayer_XiangDa/blob/master/Screenshot/Screenshot_2.png)
 
