@@ -18,23 +18,62 @@
     </p>
 </p>
 
-![]()
+<p align="center">
+    <img src="https://github.com/yanxiaonuo/MusicPlayer_XiangDa/blob/master/Screenshot/Screenshot_2.png" alt="Sample"  width="432" height="768">
+    <p align="center">
+        <em></em>
+    </p>
+</p>
 
-![](https://github.com/yanxiaonuo/MusicPlayer_XiangDa/blob/master/Screenshot/Screenshot_2.png)
+<p align="center">
+    <img src="https://github.com/yanxiaonuo/MusicPlayer_XiangDa/blob/master/Screenshot/Screenshot_3.png" alt="Sample"  width="432" height="768">
+    <p align="center">
+        <em></em>
+    </p>
+</p>
 
-![](https://github.com/yanxiaonuo/MusicPlayer_XiangDa/blob/master/Screenshot/Screenshot_3.png)
+<p align="center">
+    <img src="https://github.com/yanxiaonuo/MusicPlayer_XiangDa/blob/master/Screenshot/Screenshot_4.png" alt="Sample"  width="432" height="768">
+    <p align="center">
+        <em></em>
+    </p>
+</p>
 
-![](https://github.com/yanxiaonuo/MusicPlayer_XiangDa/blob/master/Screenshot/Screenshot_4.png)
+<p align="center">
+    <img src="https://github.com/yanxiaonuo/MusicPlayer_XiangDa/blob/master/Screenshot/Screenshot_5.png" alt="Sample"  width="432" height="768">
+    <p align="center">
+        <em></em>
+    </p>
+</p>
 
-![](https://github.com/yanxiaonuo/MusicPlayer_XiangDa/blob/master/Screenshot/Screenshot_5.png)
+<p align="center">
+    <img src="https://github.com/yanxiaonuo/MusicPlayer_XiangDa/blob/master/Screenshot/Screenshot_6.png" alt="Sample"  width="432" height="768">
+    <p align="center">
+        <em></em>
+    </p>
+</p>
 
-![](https://github.com/yanxiaonuo/MusicPlayer_XiangDa/blob/master/Screenshot/Screenshot_6.png)
+<p align="center">
+    <img src="https://github.com/yanxiaonuo/MusicPlayer_XiangDa/blob/master/Screenshot/Screenshot_7.png" alt="Sample"  width="432" height="768">
+    <p align="center">
+        <em></em>
+    </p>
+</p>
 
-![](https://github.com/yanxiaonuo/MusicPlayer_XiangDa/blob/master/Screenshot/Screenshot_7.png)
+<p align="center">
+    <img src="https://github.com/yanxiaonuo/MusicPlayer_XiangDa/blob/master/Screenshot/Screenshot_8.png" alt="Sample"  width="432" height="768">
+    <p align="center">
+        <em></em>
+    </p>
+</p>
 
-![](https://github.com/yanxiaonuo/MusicPlayer_XiangDa/blob/master/Screenshot/Screenshot_8.png)
+<p align="center">
+    <img src="https://github.com/yanxiaonuo/MusicPlayer_XiangDa/blob/master/Screenshot/Screenshot_9.png" alt="Sample"  width="432" height="768">
+    <p align="center">
+        <em></em>
+    </p>
+</p>
 
-![](https://github.com/yanxiaonuo/MusicPlayer_XiangDa/blob/master/Screenshot/Screenshot_9.png)
 
 
 
