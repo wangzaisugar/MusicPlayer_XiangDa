@@ -33,47 +33,43 @@
 </p>
 
 <p align="center">
-    <img src="https://github.com/yanxiaonuo/MusicPlayer_XiangDa/blob/master/Screenshot/Screenshot_4.png" alt="Sample"  width="432" height="768">
+    <img src="https://github.com/yanxiaonuo/MusicPlayer_XiangDa/blob/master/Screenshot/Screenshot_4.png" alt="Sample"  width="324" height="674.4">
     <p align="center">
         <em></em>
     </p>
 </p>
 
 <p align="center">
-    <img src="https://github.com/yanxiaonuo/MusicPlayer_XiangDa/blob/master/Screenshot/Screenshot_5.png" alt="Sample"  width="432" height="768">
+    <img src="https://github.com/yanxiaonuo/MusicPlayer_XiangDa/blob/master/Screenshot/Screenshot_5.png" alt="Sample"  width="324" height="674.4">
     <p align="center">
         <em></em>
     </p>
 </p>
 
 <p align="center">
-    <img src="https://github.com/yanxiaonuo/MusicPlayer_XiangDa/blob/master/Screenshot/Screenshot_6.png" alt="Sample"  width="432" height="768">
+    <img src="https://github.com/yanxiaonuo/MusicPlayer_XiangDa/blob/master/Screenshot/Screenshot_6.png" alt="Sample"  width="324" height="674.4">
     <p align="center">
         <em></em>
     </p>
 </p>
 
 <p align="center">
-    <img src="https://github.com/yanxiaonuo/MusicPlayer_XiangDa/blob/master/Screenshot/Screenshot_7.png" alt="Sample"  width="432" height="768">
+    <img src="https://github.com/yanxiaonuo/MusicPlayer_XiangDa/blob/master/Screenshot/Screenshot_7.png" alt="Sample"  width="324" height="674.4">
     <p align="center">
         <em></em>
     </p>
 </p>
 
 <p align="center">
-    <img src="https://github.com/yanxiaonuo/MusicPlayer_XiangDa/blob/master/Screenshot/Screenshot_8.png" alt="Sample"  width="432" height="768">
+    <img src="https://github.com/yanxiaonuo/MusicPlayer_XiangDa/blob/master/Screenshot/Screenshot_8.png" alt="Sample"  width="324" height="674.4">
     <p align="center">
         <em></em>
     </p>
 </p>
 
 <p align="center">
-    <img src="https://github.com/yanxiaonuo/MusicPlayer_XiangDa/blob/master/Screenshot/Screenshot_9.png" alt="Sample"  width="432" height="768">
+    <img src="https://github.com/yanxiaonuo/MusicPlayer_XiangDa/blob/master/Screenshot/Screenshot_9.png" alt="Sample"  width="324" height="674.4">
     <p align="center">
         <em></em>
     </p>
 </p>
-
-
-
-
