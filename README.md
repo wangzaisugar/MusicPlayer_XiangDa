@@ -12,7 +12,7 @@
 在兴趣的驱动下,写一个小软件，有欣喜，也还有汗水，希望你喜欢我的作品，同时也能点赞支持一下。
 
 <p align="center">
-    <img src="https://github.com/yanxiaonuo/MusicPlayer_XiangDa/blob/master/Screenshot/Screenshot_1.png" alt="Sample"  width="250" height="140">
+    <img src="https://github.com/yanxiaonuo/MusicPlayer_XiangDa/blob/master/Screenshot/Screenshot_1.png" alt="Sample"  width="144" height="256">
     <p align="center">
         <em></em>
     </p>
